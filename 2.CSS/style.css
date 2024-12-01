@@ -1,0 +1,154 @@
+/*  
+*****LIMPADNDO FORMULA*****
+*/
+* {
+   margin: 0;
+   padding: 0;
+
+}
+
+
+/*
+ ****formatação****
+*/
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aliceblue;
+}   
+
+h1{
+    color: black;
+    font-size: 40px;
+}
+
+h2{
+    color: #06c;
+
+}
+
+h3{
+    color: #1f1e1e;
+    background: #6d6868;
+    padding: 5px;
+
+}
+/*
+ ****HEADER****
+*/
+#header{
+    background-color: #06c;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu {
+    padding: 10px;
+
+}
+#header a:link,#hcoder a:visited{
+    color: antiquewhite;
+    padding: 8px 12px;
+}
+#header a :hover {
+    color: #a3073b;
+    background: #d6bfbf;
+    text-decoration: nome;
+}
+
+.white{
+
+    color: #bd5c5c;
+
+}
+/*
+***** content*****
+
+*/
+#content{
+
+    width: 920px;
+    margin: 0 auto;
+    padding: 15 px;
+
+}
+
+#posts{
+
+    width: 660px;
+    float: left;
+
+}
+.post{
+
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #272626;
+    text-align: justify;
+}
+
+.data-post{
+    font-size: 13px;
+    border-bottom: 1 px solid rgb(254, 255, 254);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.img-post{
+
+    width: 620px;
+}
+/*
+***** RIGHT SIDE*****
+
+*/
+#right-side{
+width: 240px;
+float: right;
+
+}
+
+#content-right{
+   background: #f1e9e9;
+   padding: 10px;
+   margin-bottom: 20px;
+
+
+}
+
+.post-right{
+    font-size: 13px;
+    padding: spx;
+    border-bottom: 1 px dotted #f3eaea;
+
+}
+
+/*
+***** formatacoa links*****
+
+*/
+a{
+    text-decoration: nome;
+}
+
+a:link , a:visited{
+    color: #06c;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+***** footer*****
+
+*/
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #888585;
+    color: #06c;
+
+}
